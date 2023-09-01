@@ -1,5 +1,3 @@
 #include "renderer.h"
 
-i32 function() {
-    return 100;
-}
+i32 function() { return 100; }
