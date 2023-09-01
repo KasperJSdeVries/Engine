@@ -26,4 +26,4 @@
 #error "Unknown platform!"
 #endif
 
-#endif //GAME_PLATFORM_DETECTION_H
+#endif // GAME_PLATFORM_DETECTION_H

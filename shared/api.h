@@ -1,8 +1,8 @@
 #ifndef API_H
 #define API_H
 
-//#ifdef KEXPORT
-// Exports
+// #ifdef KEXPORT
+//  Exports
 #ifdef _MSC_VER
 #define API __declspec(dllexport)
 #else
@@ -17,6 +17,6 @@
 /** @brief Import/export qualifier */
 #define API
 #endif
-//#endif
+// #endif
 
-#endif //API_H
+#endif // API_H

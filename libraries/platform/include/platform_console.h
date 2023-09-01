@@ -18,4 +18,4 @@ API void console_log(const char *message, output_color color);
 
 API void console_error(const char *message, output_color color);
 
-#endif //PLATFORM_CONSOLE_H
+#endif // PLATFORM_CONSOLE_H

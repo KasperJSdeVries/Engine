@@ -7,7 +7,6 @@
 #define STATIC_ASSERT static_assert
 #endif
 
-
 typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned int u32;
@@ -44,4 +43,4 @@ STATIC_ASSERT(sizeof(f64) == 8, "");
 
 #define false 0
 
-#endif //GAME_TYPES_H
+#endif // GAME_TYPES_H

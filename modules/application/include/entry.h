@@ -1,12 +1,12 @@
 #ifndef APPLICATION_ENTRY_H
 #define APPLICATION_ENTRY_H
 
-#include "types.h"
 #include "game.h"
+#include "types.h"
 
-extern b8 create_game(game *out_game) ;
+extern b8 create_game(game *out_game);
 
-int main () {
+int main() {
     game game_instance;
     if (!create_game(&game_instance)) {
         return -1;
@@ -23,4 +23,4 @@ int main () {
     return 0;
 }
 
-#endif //APPLICATION_ENTRY_H
+#endif // APPLICATION_ENTRY_H

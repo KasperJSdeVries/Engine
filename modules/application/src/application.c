@@ -44,7 +44,9 @@ b8 application_create(application_config *config) {
 b8 application_run() {
     int i = 0;
     while (app_state.is_running) {
-        if (i++ > 1000) { return true; }
+        if (i++ > 1000) {
+            return true;
+        }
     }
     return false;
 }
