@@ -1,3 +1,7 @@
 #include "renderer.h"
 
-int main() { return 100 - function(); }
+int main() {
+	void * state = init();
+
+	cleanup(state);
+}

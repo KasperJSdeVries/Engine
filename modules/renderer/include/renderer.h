@@ -3,6 +3,7 @@
 
 #include "types.h"
 
-i32 function();
+void *init();
+void cleanup(void *);
 
 #endif // RENDERER_H

@@ -14,7 +14,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${SHARED_FILES_DIRECTORY})
 find_package(Vulkan REQUIRED)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE ${Vulkan_LIBRARIES})
-target_include_directories(${PROJECT_NAME} PRIVATE ${Vulkan_INCLUDE_DIRECTORIES})
+target_include_directories(${PROJECT_NAME} PRIVATE ${Vulkan_INCLUDE_DIRS})
 
 file(GLOB_RECURSE TEST_FILES test/**.c)
 add_executable(${PROJECT_NAME}_test ${TEST_FILES})
