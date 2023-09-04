@@ -9,13 +9,13 @@ void *init() {
 
 	state->allocator = NULL;
 
-	create_instance("renderer_test", 1,0,0, state);
+	create_instance("renderer_test", 1, 0, 0, state);
 
 	return state;
 }
 
-void cleanup(void * ptr) {
-	vulkan_state *state = (vulkan_state*) ptr;
+void cleanup(void *ptr) {
+	vulkan_state *state = (vulkan_state *)ptr;
 
 	destroy_instance(state);
 

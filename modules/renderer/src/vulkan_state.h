@@ -5,7 +5,7 @@
 
 typedef struct vulkan_state {
 	VkAllocationCallbacks *allocator;
-    VkInstance instance;
+	VkInstance instance;
 } vulkan_state;
 
-#endif //RENDERER_STATE_H
+#endif // RENDERER_STATE_H

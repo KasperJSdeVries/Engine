@@ -1,7 +1,7 @@
 #include "renderer.h"
 
 int main() {
-	void * state = init();
+	void *state = init();
 
 	cleanup(state);
 }

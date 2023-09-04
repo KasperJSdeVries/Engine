@@ -12,12 +12,12 @@ b8 create_instance(
 		.apiVersion = VK_API_VERSION_1_3, // Highest Vulkan version we can use
 		.pApplicationName = application_name,
 		.applicationVersion = VK_MAKE_VERSION(
-								  application_version_major,
-								  application_version_minor,
-								  application_version_patch
-							  ),
+			application_version_major,
+			application_version_minor,
+			application_version_patch
+		),
 		.pEngineName = "Game Engine",
-		.engineVersion = VK_MAKE_VERSION(1,0,0)
+		.engineVersion = VK_MAKE_VERSION(1, 0, 0)
 	};
 
 	VkInstanceCreateInfo createInfo = {
