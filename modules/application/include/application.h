@@ -5,7 +5,7 @@
 #include "types.h"
 
 typedef struct application_config {
-    char *name;
+	char *name;
 } application_config;
 
 API b8 application_create(application_config *config);

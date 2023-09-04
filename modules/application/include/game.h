@@ -5,8 +5,8 @@
 #include "types.h"
 
 typedef struct game {
-    application_config application_config;
-    void *state;
+	application_config application_config;
+	void *state;
 } game;
 
 #endif // APPLICATION_GAME_H

@@ -5,12 +5,14 @@
 
 #include <windows.h>
 
-b8 platform_startup(platform_state *state,
-                    const char *application_name,
-                    i32 x,
-                    i32 y,
-                    i32 width,
-                    i32 height) {}
+b8 platform_startup(
+	platform_state *state,
+	const char *application_name,
+	i32 x,
+	i32 y,
+	i32 width,
+	i32 height
+) {}
 
 void platform_shutdown(platform_state *state) {}
 
